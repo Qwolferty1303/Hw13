@@ -1,23 +1,23 @@
 // // 1)
 // // Функция называется showMessage
 
-// function showMessage(параметры) {
-//     // код
-// }
+// // function showMessage(параметры) {
+// //     // код
+// // }
 
 // // 2)
 // // Функция называется showMessage
 
-// let showMessage = function(параметры) {
-//     // код
-// }
+// // let showMessage = function(параметры) {
+// //     // код
+// // }
 
 // // 3)
 // // Функция называется showMessage
 
-// let showMessage = (параметры) => {
-//     // код
-// }
+// // let showMessage = (параметры) => {
+// //     // код
+// // }
 
 // // 4)
 // // Создание функции и вызов функции
@@ -122,18 +122,18 @@
 // // 15)
 // // Вызов функции внутри первого объекта с помощью apply()
 
-// const person = {
+// const person2 = {
 //     firstFunc: function() {
 //         console.log(`${this.firstName} ${this.lastName}`);
 //     }
 // };
 
-// const person1 = {
+// const person3 = {
 //     firstName: 'Samuil',
 //     lastName: 'Farzaliyev'
 // };
 
-// person.firstFunc.apply(person1);
+// person.firstFunc.apply(person3);
 
 // // 16)
 // // Методы call() и apply() могут принять массив параметров.
@@ -157,5 +157,5 @@
 // // 20)
 // // Для вывода маленького числа из массива можно использовать метод Math.min() в комбинации с apply()
 
-// const numbers = [1, 2, 4];
-// console.log(Math.min.apply(null, numbers));
+// const numbers2 = [1, 2, 4];
+// console.log(Math.min.apply(null, numbers2));
